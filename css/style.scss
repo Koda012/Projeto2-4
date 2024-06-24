@@ -1,0 +1,117 @@
+$dark: #DCDCDC;
+$secondary: #f9f6f6;
+$clear: #FFF;
+
+
+/* CSS Reset - zerar as margens */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin texto {
+    font: 16px $font;
+    color: $dark;
+    text-align: justify;
+}
+
+p, h1 {
+    @include texto;
+
+}
+
+h1 {
+    font-size: 36px !important;
+    text-align: center;
+}
+
+.header {
+    background-color: $dark;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    height: 70px;
+    z-index: 1;
+    position: relative;
+    .header-logo {
+        img {
+            width: 200px;
+            margin-top: -20px;
+        }
+    }
+    .header-menu {
+        float: right;
+        padding: 0;
+        margin: 0;
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                margin: 5px 15px; /* 5px cima e baixo, 15px esq e dir */
+                display: inline-block;
+                font: 20px $font;
+                font-weight: bold;
+                a {
+                    color: $secondary;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: $clear;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .header-logo {
+            img {
+                width: 0px;
+                height: 0px;
+                margin-top: -20px;
+            }
+        }
+    }
+}
+
+.footer {
+    background: $dark;
+    padding: 20px;
+    p {
+        text-align: center;
+        color: $secondary;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+video {
+    width: 100%;
+    max-width: 385px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    color:white;
+    background-color: gray;
+}  
+.rainbow-six {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
