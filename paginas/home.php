@@ -115,15 +115,15 @@
                 </a>       
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <a href="index.php?pagina=pagina">
-                    <img src="imagens/IMAGEMJOGO2.png" class="d-block w-100" alt="IMG">
+                <a href="index.php?pagina=pagina2">
+                    <img src="imagens/IMAGEM2.png" class="d-block w-100" alt="IMG">
                 </a>    
             </div>
             <div class="carousel-item">
                 <a href="index.php?pagina=pagina">
                     <img src="imagens/IMAGEMJOGO.png" class="d-block w-100" alt="IMG">
                 </a>
-            </div>
+            </div>  
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
             data-bs-slide="prev">
@@ -140,50 +140,49 @@
     <div class="container">
         <div class="quadrado">
             <a href="index.php?pagina=pagina">
-                <img src="imagens/pixil-frame.png" alt="IMG">
+                <img src="imagens/pixilframe.png" alt="IMG">
                 <div class="overlay">
-                    <span>Sticky guy</span>
+                    <span>STICKY GUY</span>
                 </div>
             </a>
         </div>
         <div class="quadrado">
-            <a href="index.php?pagina=pagina">
+            <a href="index.php?pagina=pagina2">
                 <img src="imagens/labirinto.png" alt="Imagem 2">
                 <div class="overlay">
-                    <span>Veja mais</span>
+                    <span>LABIRINTO</span>
                 </div>
             </a>
         </div>
         <div class="quadrado">
-            <a href="index.php?pagina=pagina">
-                <img src="imagem3.jpg" alt="Imagem 3">
+            <a href="https://www.clickjogos.com.br/jogos-de-acao/fireboy-and-watergirl-3-in-the-ice-temple">
+                <img src="imagens/imagem3.png" alt="Imagem 3">
                 <div class="overlay">
-                    <span>Veja mais</span>
-                </div>
-            </a>
-
-        </div>
-        <div class="quadrado">
-            <a href="index.php?pagina=pagina">
-                <img src="imagem4.jpg" alt="Imagem 4">
-                <div class="overlay">
-                    <span>Veja mais</span>
+                    <span>FIREBOY<br> AND <br> WATERGIRL</span>
                 </div>
             </a>
         </div>
         <div class="quadrado">
-            <a href="index.php?pagina=pagina">
-                <img src="imagem5.jpg" alt="Imagem 5">
+            <a href="https://www.jogos360.com.br/bad_ice_cream.html">
+                <img src="imagens/imagem4.png" alt="Imagem 4">
                 <div class="overlay">
-                    <span>Veja mais</span>
+                    <span>BAD ICE CREAM</span>
                 </div>
             </a>
         </div>
         <div class="quadrado">
-            <a href="index.php?pagina=pagina">
-                <img src="imagem6.jpg" alt="Imagem 6">
+            <a href="https://www.jogos360.com.br/bomb_it.html#google_vignette">
+                <img src="imagens/imagem5.png" alt="Imagem 5">
                 <div class="overlay">
-                    <span>Veja mais</span>
+                    <span>BOMB IT</span>
+                </div>
+            </a>
+        </div>
+        <div class="quadrado">
+            <a href="https://www.crazygames.com.br/jogos/papas-pizzeria">   
+                <img src="imagens/imagem6.png" alt="Imagem 6">
+                <div class="overlay">
+                    <span>PAPA'S <br>PIZZERIA</span>
                 </div>
             </a>
         </div>
