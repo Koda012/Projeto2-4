@@ -33,7 +33,7 @@
     &nbsp
     <h1 class="rainbow-six">STICKY GUY</h1>
 
-    <h1><iframe width="1000" height="600" src="jogo/index.html"></iframe>
+    <h1><iframe width="1000" height="600" src="stickyguy/index.html.html"></iframe>
     </h1>
     &nbsp
     <p>SOBRE O JOGO: Sticky guy só quer ser feliz e para isso tera q passar por desafios para salvar sua amada sticky

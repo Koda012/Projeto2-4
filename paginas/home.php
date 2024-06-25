@@ -121,7 +121,7 @@
             </div>
             <div class="carousel-item">
                 <a href="index.php?pagina=pagina">
-                    <img src="imagens/IMAGEMJOGO3.png" class="d-block w-100" alt="IMG">
+                    <img src="imagens/IMAGEMJOGO.png" class="d-block w-100" alt="IMG">
                 </a>
             </div>
         </div>
@@ -148,7 +148,7 @@
         </div>
         <div class="quadrado">
             <a href="index.php?pagina=pagina">
-                <img src="imagem2.jpg" alt="Imagem 2">
+                <img src="imagens/labirinto.png" alt="Imagem 2">
                 <div class="overlay">
                     <span>Veja mais</span>
                 </div>
@@ -165,7 +165,7 @@
         </div>
         <div class="quadrado">
             <a href="index.php?pagina=pagina">
-                <img src="imagem1.jpg" alt="Imagem 4">
+                <img src="imagem4.jpg" alt="Imagem 4">
                 <div class="overlay">
                     <span>Veja mais</span>
                 </div>
@@ -173,7 +173,7 @@
         </div>
         <div class="quadrado">
             <a href="index.php?pagina=pagina">
-                <img src="imagem2.jpg" alt="Imagem 5">
+                <img src="imagem5.jpg" alt="Imagem 5">
                 <div class="overlay">
                     <span>Veja mais</span>
                 </div>
@@ -181,7 +181,7 @@
         </div>
         <div class="quadrado">
             <a href="index.php?pagina=pagina">
-                <img src="imagem2.jpg" alt="Imagem 6">
+                <img src="imagem6.jpg" alt="Imagem 6">
                 <div class="overlay">
                     <span>Veja mais</span>
                 </div>
