@@ -25,23 +25,29 @@
             font-family: 'Roboto Slab', serif;
             color: white;
             background-image: url('imagens/telafundo.png');
-        } 
+        }
+        @media (max-width: 768px) {
+            iframe {
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
-    &nbsp
-    <h1 class="rainbow-six">STICKY GUY</h1>
-
-    <h1><iframe width="1000" height="600" src="stickyguy/index.html.html"></iframe>
-    </h1>
-    &nbsp
-    <p>SOBRE O JOGO: Sticky guy só quer ser feliz e para isso tera q passar por desafios para salvar sua amada sticky
-        girl, usando o olho do tempo sticky pode voltar ao inicio do dia ao ser derrotado
-        <br>Sticky: Para ter uma vida de paz Sticky busca salvar sua namorada do normal men<br>
-        Normal men: apos destruir parte do mundo, ele transforma a namorada de sticky em pedra<br>
-        smile faces: lacaios de normal men
-    </p>
+    <div>
+        <h1 class="rainbow-six">STICKY GUY</h1>
+    </div>
+    <h1>
+    <iframe width="55%" height="500" style="border:0;" loading="lazy" src="paginas/stickyguy/index.html.html"></iframe></h1>
+    <div>
+        <h1><a href="paginas/stickyguy/index.html.html" class="btn" target="_blank" id="btn-mobile" style="background-color: #00CC00; color: white;">Jogar agora</a></h1>
+        <p>SOBRE O JOGO: Sticky guy só quer ser feliz e para isso terá que passar por desafios para salvar sua amada sticky
+            girl, usando o olho do tempo sticky pode voltar ao início do dia ao ser derrotado.
+            <br>Sticky: Para ter uma vida de paz Sticky busca salvar sua namorada do normal men.<br>
+            Normal men: após destruir parte do mundo, ele transforma a namorada de sticky em pedra.<br>
+            Smile faces: lacaios de normal men.
+        </p>
+    </div>
 </body>
-
 </html>

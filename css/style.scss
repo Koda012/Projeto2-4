@@ -72,6 +72,15 @@ h1 {
         }
     }
 }
+@media only screen and (min-width: 768px) {
+    header {
+      display: flex;
+    }
+    header .header-logo img {
+      width: 10px;
+    }
+}
+  
 
 .footer {
     background: $dark;
@@ -93,15 +102,6 @@ h1 {
 
 .w-100 {
     width: 100%;
-}
-
-
-video {
-    width: 100%;
-    max-width: 385px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 p {
